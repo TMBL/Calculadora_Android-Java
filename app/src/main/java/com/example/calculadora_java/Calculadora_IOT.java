@@ -11,13 +11,14 @@ import android.widget.Toast;
 
 public class Calculadora_IOT extends AppCompatActivity {
 
+    //Comentando par obtener un cambio
     TextView textView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculadora_iot);
 
-        Toast toast = Toast.makeText(this,"Activity 2",Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(this,"Juan",Toast.LENGTH_LONG);
         toast.show();
 
         Intent intent = getIntent();
