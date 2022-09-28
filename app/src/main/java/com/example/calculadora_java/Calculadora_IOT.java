@@ -18,7 +18,7 @@ public class Calculadora_IOT extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculadora_iot);
 
-        Toast toast = Toast.makeText(this,"Juan",Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(this,"Roberto,Toast.LENGTH_LONG);
         toast.show();
 
         Intent intent = getIntent();
